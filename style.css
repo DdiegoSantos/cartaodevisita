@@ -19,6 +19,7 @@ article#foto{
     margin: auto;
 }
 article#foto img{
+    width:150px;
    min-width: 100px;
    margin-top: clamp(50px, 2vw, 5vw);
 
