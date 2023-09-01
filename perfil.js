@@ -1,5 +1,5 @@
 sm = document.querySelector("#sobremim")
-dados =document.getElementClassAll("dados")
+dados =document.getElementClassAll(".dados")
 
 function aparecer(){
     sm.style.width= "60%"
