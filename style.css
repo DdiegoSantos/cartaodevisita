@@ -142,12 +142,12 @@ article#cursos{
 }
 /*======================================SOBRE MIM===================*/
 article#sobremim{
-    background: #000152;
+    background: #000160;
     padding: 15px ;
     border-radius:3%;
-    box-shadow:0 0 15px #000;
+    box-shadow:0 0 15px #333;
     width: 60%;
-    min-width: 380px;
+    min-width: 280px;
     margin: 50px auto 0 auto;
     opacity: 0;
     height: auto;
@@ -180,7 +180,6 @@ article#sobremim p{
 article#sobremim{
     margin: 350px auto;
     width: 60%;
-    
 }
 #botSM{
     background:#000152;
@@ -189,7 +188,8 @@ article#sobremim{
     padding:7px;
     text-align:center;
     margin:10px auto;
-            
+    border-radius:5px;
+    color:#fff;
 }
 #botSM:hover{
     cursor:pointer;
