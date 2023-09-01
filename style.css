@@ -144,7 +144,7 @@ article#cursos{
 article#sobremim{
     display: block;
     
-    max-width: clamp(300px, 800px, 1900px);
+   /* max-width: clamp(300px, 800px, 1900px);*/
     
 }
 article#sobremim h1,h2,p{
