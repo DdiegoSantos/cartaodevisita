@@ -8,7 +8,7 @@
 body{
     background-image: linear-gradient(-35deg, #000152,#191DFF);
     max-height: 1024px;
-    min-height:780px;
+    min-height:680px;
 }
 img#fundo{
     position: absolute;
@@ -20,7 +20,7 @@ article#foto{
     margin: auto;
 }
 article#foto img{
-    width:100%;
+    
     max-width:300px;
    min-width: 100px;
    margin-top: clamp(50px, 2vw, 5vw);
