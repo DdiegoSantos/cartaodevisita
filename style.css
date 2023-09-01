@@ -182,3 +182,16 @@ article#sobremim{
     width: 60%;
     
 }
+#botSM{
+    background:#000152;
+    font-family: 'Roboto', sans-serif;
+    width:75%;
+    padding:7px;
+    text-align:center;
+    margin:10px auto;
+            
+}
+#botSM:hover{
+    cursor:pointer;
+}
+    
