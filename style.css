@@ -143,3 +143,39 @@ article#cursos{
     font-size: 0.6em;
     color:#727272;
 }
+/*SOBRE MIM*/
+article#cabecalho{
+    display: block;
+    text-align: center;
+    max-width: clamp(300px, 800px, 1900px);
+    
+}
+article#sobremim h1,h2,p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    
+}
+article#sobremim h1{
+    color:#fff;
+    font-size:clamp(18px, 2vw, 3vw) ;
+    margin-bottom:5px;
+}
+article#sobremim h2{
+    border-top:0.25vw dashed #decc0b;
+    width: 100%;
+    color:#decc0b;
+    font-size:clamp(24px, 40px, 3vw) ;
+    text-align: center;
+}
+article#sobremim p{
+    font-size:clamp(15px, 2vw, 40px) ;
+    color:#fff;
+    text-align: justify;
+    margin-top: 20px;
+}
+article#sobremim{
+    margin: 350px auto;
+    width: 60%;
+    
+}
