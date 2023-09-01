@@ -140,13 +140,17 @@ article#cursos{
     font-size: 0.6em;
     color:#727272;
 }
-/*SOBRE MIM*/
+/*======================================SOBRE MIM===================*/
 article#sobremim{
     display: block;
-    
-    
-   /* max-width: clamp(300px, 800px, 1900px);*/
-    
+    background: #000152;
+    padding: 15px;
+    border-radius:3%;
+    box-shadow:0 0 15px #000;
+    width: 60%;
+    min-width: 380px;
+    margin: 350px auto;
+    opacity: 0;
 }
 article#sobremim h1,h2,p{
     
