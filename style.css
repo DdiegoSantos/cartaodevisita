@@ -108,12 +108,9 @@ article #formacao a{
 }
 
 article#formacao img{
-    min-width: 20px;
+    min-width: 30px;
     width: 2vw;
     margin: 2vw 0;
-    
-    
-    
 }
 article#formacaocursos img{
     display: inline-flex;
