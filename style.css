@@ -173,7 +173,7 @@ article#sobremim p{
     font-size:clamp(15px, 2vw, 18px) ;
     color:#fff;
     text-align: justify;
-    margin-top: clamp(15px, 1vw, 18px);
+    margin-top:  2vw;
 }
 article#sobremim{
     margin: 350px auto;
