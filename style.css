@@ -144,6 +144,7 @@ article#cursos{
 article#sobremim{
     display: block;
     
+    
    /* max-width: clamp(300px, 800px, 1900px);*/
     
 }
@@ -168,9 +169,9 @@ article#sobremim h2{
 }
 article#sobremim p{
     font-size:clamp(15px, 2vw, 18px) ;
-    color:#fff;
+    color:rgb(0, 175, 239);
     text-align: justify;
-    margin-top:  2vw;
+    margin-top:  clamp(15px, 2vw, 2vw);
 }
 article#sobremim{
     margin: 350px auto;
