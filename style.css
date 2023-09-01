@@ -53,12 +53,13 @@ article#cabecalho h2{
 article#cabecalho p{
     font-size:clamp(15px, 2vw, 40px) ;
     color:#fff;
+    margin-top:20px;
 }
 article#redeSocial img{
     display: inline-flex;
     width:1.5vw;
     min-width: 30px;
-    margin:10px;
+    margin:30px 10px 10px 10px;
 }
 
 main article#cabecalho{
