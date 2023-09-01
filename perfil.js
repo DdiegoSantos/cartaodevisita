@@ -5,5 +5,5 @@ function aparecer(){
     sm.style.minWidth="280px"
     sm.style.opacity="1"
     sm.style.margin= "50px auto"
-    sm.style.transition = "4s"
+    sm.style.transition = "2s"
 }
