@@ -4,6 +4,7 @@ dadosh2 =document.querySelector("#dadosh2")
 dadosp =document.querySelector("#dadosp")
 dadosp2 =document.querySelector("#dadosp2")
 btoSM = document.querySelector("#botSM")
+body = document.body
 
 function aparecer(){
    	sm.style.width= "60%"
@@ -12,6 +13,7 @@ function aparecer(){
     	sm.style.margin= "50px auto"
     	sm.style.transition = "4s"
 	sm.style.height = "auto"
+	body.style.height = "1024px"
 
    	   
 }
@@ -21,6 +23,6 @@ function botSM(){
 	dadosp.style.display ="block"
 	dadosp2.style.display ="block"
 	
-	botSM.style.height="auto"
+	botSM.style.height="grid"
 	botSM.style.transition="5s"
 }
