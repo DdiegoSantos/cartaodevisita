@@ -32,6 +32,6 @@ function botSM(){
 	botSM.style.transition="5s"
 } 
 function fechar(){
-       sm.style.opacity="1"
+       sm.style.opacity="0"
 	
 }
