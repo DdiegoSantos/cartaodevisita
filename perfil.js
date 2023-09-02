@@ -13,7 +13,7 @@ function aparecer(){
     	sm.style.margin= "50px auto"
     	sm.style.transition = "4s"
 	sm.style.position="absolute"
-	sm.style.right="20%"
+	sm.style.right="33%"
 	sm.style.top = "20%"
 	sm.style.height = "auto"
 	body.style.height = "1024px"
