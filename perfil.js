@@ -12,6 +12,9 @@ function aparecer(){
     	sm.style.opacity="1"
     	sm.style.margin= "50px auto"
     	sm.style.transition = "4s"
+	sm.style.position="absolute"
+	sm.style.right="20%"
+	sm.style.top = "20%"
 	sm.style.height = "auto"
 	body.style.height = "1024px"
 
@@ -23,6 +26,6 @@ function botSM(){
 	dadosp.style.display ="block"
 	dadosp2.style.display ="block"
 	
-	botSM.style.height="grid"
+	botSM.style.height="auto"
 	botSM.style.transition="5s"
 }
