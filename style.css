@@ -9,8 +9,9 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(-35deg, #000152,#191DFF);
-    /*max-height: 1024px;*/
+    background-image: url('imagens/fundo.png'),linear-gradient(-35deg, #000152,#191DFF);
+    background-repeat: no-repeat;
+	/*max-height: 1024px;*/
     min-height:700px;
 }
 img#fundo{
