@@ -33,5 +33,9 @@ function botSM(){
 } 
 function fechar(){
        sm.style.opacity="0"
+	dadosh1.style.display ="none"
+	dadosh2.style.display ="none"
+	dadosp.style.display ="none"
+	dadosp2.style.display ="none"
 	
 }
