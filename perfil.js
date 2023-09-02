@@ -32,9 +32,6 @@ function botSM(){
 	botSM.style.transition="5s"
 } 
 function fechar(){
-       
-	dadosh1.style.display ="none"
-	dadosh2.style.display ="none"
-	dadosp.style.display ="none"
-	dadosp2.style.display ="none"
+       sm.style.opacity="1"
+	
 }
