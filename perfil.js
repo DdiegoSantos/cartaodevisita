@@ -32,5 +32,8 @@ function botSM(){
 } 
 function fechar(){
        fechar = document.querySelector("#fechar")
-	fechar.
+	dadosh1.style.display ="none"
+	dadosh2.style.display ="none"
+	dadosp.style.display ="none"
+	dadosp2.style.display ="none"
 }
