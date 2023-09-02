@@ -47,7 +47,7 @@ article#cabecalho h1{
     margin-bottom:5px;
 }
 article#cabecalho h2{
-    border-top:0.25vw dashed #decc0b;
+    border-top:2px dashed #decc0b;
     width: 100%;
     color:#decc0b;
     font-size:clamp(24px, 40px, 3vw) ;
@@ -71,14 +71,18 @@ main article#cabecalho{
     
 }
 /*====================PROJETOS=============*/
-
+article #git ,
+article #formacao{
+    margin: 5px 0;
+}
 
 article #git p,
 article #formacao p{
     display: inline-block;
     text-align: center;
     color:rgb(0, 175, 239);
-    font-size:clamp(15px, 2vw, 5vw);
+    font-size:clamp(15px, 1.5vw, 3vw);
+    
 }
 article #git a,
 article #formacao a{
@@ -132,10 +136,12 @@ article#sobremim{
 	
 	
     margin:  auto;
-    opacity: 0;
+    display: none;
     height: 0;
 }
-article#sobremim h1,h2,p{
+article#sobremim h1,
+article#sobremim h2,
+article#sobremim p{
     
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -144,15 +150,15 @@ article#sobremim h1,h2,p{
 article#sobremim h1{
     text-align: right;
     color:#fff;
-    font-size:clamp(18px, 2vw, 3vw) ;
+    font-size:clamp(18px, 1vw, 2vw) ;
     margin-bottom:5px;
 display:none;
 }
 article#sobremim h2{
-    border-top:0.25vw dashed #decc0b;
+    border-top:2px dashed #decc0b;
     width: 100%;
     color:#decc0b;
-    font-size:clamp(24px, 40px, 3vw) ;
+    font-size:clamp(24px, 40px, 2vw) ;
     text-align: right;
 display:none;
 }
