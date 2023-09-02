@@ -5,6 +5,7 @@ dadosp =document.querySelector("#dadosp")
 dadosp2 =document.querySelector("#dadosp2")
 btoSM = document.querySelector("#botSM")
 body = document.body
+fechar = document.querySelector("#fechar")
 
 function aparecer(){
    	sm.style.width= "60%"
@@ -31,7 +32,7 @@ function botSM(){
 	botSM.style.transition="5s"
 } 
 function fechar(){
-       fechar = document.querySelector("#fechar")
+       
 	dadosh1.style.display ="none"
 	dadosh2.style.display ="none"
 	dadosp.style.display ="none"
