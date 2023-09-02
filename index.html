@@ -7,10 +7,12 @@
     <link rel="shortcut icon" href="imagens/letra2.png" type="image/x-icon">
     <title>Cartão de Visita</title>
 </head>
-<body >
-    <main>
+<body  >
+    <main >
         <img id="fundo" src="./imagens/fundo.png" alt="">
-        <article id="foto" >
+        
+        
+            <article id="foto" >
                 <picture>
                     <source media="(max-width: 600px)" srcset="./imagens/foto_perfil-peq.png" type="image/png">
                     <img  src="./imagens/foto_perfil.png" alt="">
@@ -19,7 +21,7 @@
             <article id="cabecalho">                
                 <h1>Diego Nunes Santos</h1>
                 <h2>DESENVOLVEDOR FRONT-END</h2>
-                <p>HTML - CSS - JAVASCRIPT - REACT</p>
+                <p>HTML - CSS - JAVASCRIPT </p>
                 <article id="redeSocial">
                     <picture>
                         <a href="https://wa.me/5527995321787?text=Ol%C3%A1%2C+estou+entrado+em+contato%2C+porque+dei+uma+olhada+na+sua+apresenta%C3%A7%C3%A3o."target="_blank"><img  src="imagens/zap.png" alt="whatsapp" ></a>
@@ -27,7 +29,7 @@
                         <a href="https://www.linkedin.com/in/diego-nunes-santos-489481220/" target="_blank"><img src="imagens/linkdin.png" alt="linkedIn" ></a>
                     </picture>
                 </article>  
-                <section id="trabalhos" >
+                <section id="trabalhos" onmousemove="aparecer()" >
                     <article id="git">
                         <a href="projetos.html"> <p>PROJETOS</p> <img src="./imagens/git.png" alt=""></a>
                         
@@ -37,15 +39,13 @@
                     </article>
                 </section>
             </article>
-         <div id="botSM"onclick="aparecer();botSM()" >Sobre Mim
-</div>
-    </main>
-    <article id="sobremim" >
-        <div id="fechar" onclick="fechar()" >X</div>
-        <h1 id="dadosh1" >
+         <div id="botSM"onclick="aparecer();botSM()" >Sobre Mim</div>
+<article id="sobremim">
+    <div id="fec" onclick="fechar()" >X</div>
+        <h1 id="dadosh1">
             UM POUCO
         </h1>
-        <h2 id="dadosh2" >Sobre mim</h2>
+        <h2 id="dadosh2">Sobre mim</h2>
         <p id="dadosp">
             Morador da Grande Vitória, casado, design gráfico desde 2004, sempre fui curioso para entender o que movia as coisas, a parte da engenharia, uma vez ganhei um carrinho de brinquedo, daqueles que a gente liga o botão e ele andava sozinho, com poucos dias desmontei porque queria saber como funcionava por dentro.
         </p>
@@ -53,6 +53,9 @@
             Sempre tive a vontade de aprender como era o funcionamento na parte de programação, então comecei os meus estudos e hoje sou apaixonado por essa área, principalmente a parte de desenvolvimento Web, onde eu consigo  unir duas paixões que são Desenhar e Programar.
         </P>
     </article>
+
+    </main>
+    
    
     
 </body>
