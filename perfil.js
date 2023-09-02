@@ -13,8 +13,8 @@ function aparecer(){
     	sm.style.margin= "50px auto"
     	sm.style.transition = "4s"
 	sm.style.position="absolute"
-	sm.style.right="30%"
-	sm.style.left="30%"
+	sm.style.right="20%"
+	sm.style.left="20%"
 	sm.style.top = "20%"
 	sm.style.height = "auto"
 	body.style.height = "1024px"
@@ -29,4 +29,8 @@ function botSM(){
 	
 	botSM.style.height="auto"
 	botSM.style.transition="5s"
+} 
+function fechar(){
+       fechar = document.querySelector("#fechar")
+	fechar.
 }
