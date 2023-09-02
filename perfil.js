@@ -5,14 +5,14 @@ dadosp =document.querySelector("#dadosp")
 dadosp2 =document.querySelector("#dadosp2")
 btoSM = document.querySelector("#botSM")
 body = document.body
-fechar = document.querySelector("#fechar")
+
 
 function aparecer(){
    	sm.style.width= "60%"
     	sm.style.minWidth="280px"
     	sm.style.opacity="1"
     	sm.style.margin= "50px auto"
-    	sm.style.transition = "4s"
+    	sm.style.transition = "1.2s"
 	sm.style.position="absolute"
 	sm.style.right="20%"
 	sm.style.left="20%"
@@ -32,10 +32,9 @@ function botSM(){
 	botSM.style.transition="5s"
 } 
 function fechar(){
-       window.alert="ok"
-	dadosh1.style.display ="none"
+    dadosh1.style.display ="none"
 	dadosh2.style.display ="none"
 	dadosp.style.display ="none"
 	dadosp2.style.display ="none"
-	
+	sm.style.opacity="0"
 }
