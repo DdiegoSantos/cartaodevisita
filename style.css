@@ -148,12 +148,12 @@ article#sobremim{
     box-shadow:0 0 15px #333;
     width: 60%;
     min-width: 280px;
-    margin: 50px auto 0 auto;
+    margin: 0px auto 0 auto;
     opacity: 0;
-    height: auto;
+    height: 0;
 }
 article#sobremim h1,h2,p{
-    display:none;
+    
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     
@@ -163,6 +163,7 @@ article#sobremim h1{
     color:#fff;
     font-size:clamp(18px, 2vw, 3vw) ;
     margin-bottom:5px;
+display:none;
 }
 article#sobremim h2{
     border-top:0.25vw dashed #decc0b;
@@ -170,26 +171,27 @@ article#sobremim h2{
     color:#decc0b;
     font-size:clamp(24px, 40px, 3vw) ;
     text-align: right;
+display:none;
 }
 article#sobremim p{
     font-size:clamp(15px, 2vw, 18px) ;
     color:rgb(0, 175, 239);
     text-align: justify;
     margin-top:  clamp(15px, 2vw, 2vw);
+display:none;
 }
-article#sobremim{
-    margin: 350px auto;
-    width: 60%;
-}
+
 #botSM{
     background:#000152;
     font-family: 'Roboto', sans-serif;
     width:75%;
+    height:30px;	
     padding:7px;
     text-align:center;
     margin:10px auto;
     border-radius:5px;
     color:#fff;
+	transition:5s;
 }
 #botSM:hover{
     cursor:pointer;
