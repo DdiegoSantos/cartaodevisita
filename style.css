@@ -30,7 +30,9 @@ article#cabecalho{
     max-width: clamp(300px, 800px, 1900px);
     
 }
-article#cabecalho h1,h2,p{
+article#cabecalho h1,
+article#cabecalho h2,
+article#cabecalho p{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -153,7 +155,9 @@ article#sobremim{
     position: absolute;
        
 }
-article#sobremim h1,h2,p{
+article#sobremim h1,
+article#sobremim h2,
+article#sobremim p{
     display: none;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
