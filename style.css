@@ -185,13 +185,14 @@ display:none;
     background:#000152;
     font-family: 'Roboto', sans-serif;
     width:75%;
+    max-width:350px;
     height:30px;	
     padding:7px;
     text-align:center;
     margin:10px auto;
     border-radius:5px;
     color:#fff;
-	transition:5s;
+    transition:5s;
 }
 #botSM:hover{
     cursor:pointer;
