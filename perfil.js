@@ -9,14 +9,14 @@ body = document.body
 
 function aparecer(){
    	sm.style.width= "60%"
-    	sm.style.minWidth="280px"
-    	sm.style.opacity="1"
-    	sm.style.margin= "50px auto"
-    	sm.style.transition = "1.2s"
+    sm.style.minWidth="280px"
+	sm.style.opacity="1"
+   	sm.style.margin= "auto"
+   	sm.style.transition = "1.2s"
 	sm.style.position="absolute"
 	sm.style.right="20%"
 	sm.style.left="20%"
-	sm.style.top = "20%"
+	
 	sm.style.height = "auto"
 	body.style.height = "1024px"
 
