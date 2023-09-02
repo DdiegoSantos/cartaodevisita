@@ -32,7 +32,7 @@ function botSM(){
 	botSM.style.transition="5s"
 } 
 function fechar(){
-       sm.style.opacity="0"
+       window.alert="ok"
 	dadosh1.style.display ="none"
 	dadosh2.style.display ="none"
 	dadosp.style.display ="none"
