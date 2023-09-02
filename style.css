@@ -1,5 +1,8 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*fec.style.background="#fff"
+	fec.style.width="30px"
+	fec.style.height="30px"*/
 *{
     margin: 0;
     padding: 0;
@@ -7,8 +10,8 @@
 }
 body{
     background-image: linear-gradient(-35deg, #000152,#191DFF);
-    min-height: 1024px;
-    
+    /*max-height: 1024px;*/
+    min-height:700px;
 }
 img#fundo{
     position: absolute;
@@ -20,7 +23,9 @@ article#foto{
     margin: auto;
 }
 article#foto img{
-   min-width: 280px;
+    
+    max-width:300px;
+   min-width: 100px;
    margin-top: clamp(50px, 2vw, 5vw);
 
 }
@@ -30,9 +35,7 @@ article#cabecalho{
     max-width: clamp(300px, 800px, 1900px);
     
 }
-article#cabecalho h1,
-article#cabecalho h2,
-article#cabecalho p{
+article#cabecalho h1,h2,p{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -53,19 +56,20 @@ article#cabecalho h2{
 article#cabecalho p{
     font-size:clamp(15px, 2vw, 40px) ;
     color:#fff;
-}
-main article#cabecalho{
-    margin: 0 auto;
-    width: 60%;
-    
+    margin-top:20px;
 }
 article#redeSocial img{
     display: inline-flex;
     width:1.5vw;
     min-width: 30px;
-    margin:10px;
+    margin:30px 10px 10px 10px;
 }
 
+main article#cabecalho{
+    margin: 0 auto;
+    width: 60%;
+    
+}
 #trabalhos{
     display: block;
     
@@ -110,13 +114,12 @@ article#formacao img{
     min-width: 30px;
     width: 2vw;
     margin: 2vw 0;
-       
 }
 article#formacaocursos img{
     display: inline-flex;
     margin: 2vw 0;
-    height: 80px;
-    margin: 30px 30px 30px 0;
+    width: 250px;
+    margin: 30px 20px 30px 0;
     
 }
 article#formacaocursos{
@@ -140,25 +143,22 @@ article#cursos{
     font-size: 0.6em;
     color:#727272;
 }
-/*SOBRE MIM*/
+/*======================================SOBRE MIM===================*/
 article#sobremim{
-   
-    background: #000152;
+    background: #000160;
     padding: 15px ;
     border-radius:3%;
-    box-shadow:0 0 15px #000;
+    box-shadow:0 0 15px #333;
     width: 60%;
-    min-width: 380px;
-    margin: 50px auto 0 auto;
+    min-width: 280px;
+	
+	
+    margin:  auto;
     opacity: 0;
-    height: auto;
-    position: absolute;
-       
+    height: 0;
 }
-article#sobremim h1,
-article#sobremim h2,
-article#sobremim p{
-    display: none;
+article#sobremim h1,h2,p{
+    
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     
@@ -168,6 +168,7 @@ article#sobremim h1{
     color:#fff;
     font-size:clamp(18px, 2vw, 3vw) ;
     margin-bottom:5px;
+display:none;
 }
 article#sobremim h2{
     border-top:0.25vw dashed #decc0b;
@@ -175,31 +176,37 @@ article#sobremim h2{
     color:#decc0b;
     font-size:clamp(24px, 40px, 3vw) ;
     text-align: right;
+display:none;
 }
 article#sobremim p{
     font-size:clamp(15px, 2vw, 18px) ;
     color:rgb(0, 175, 239);
     text-align: justify;
-    margin-top: 20px;
-    
+    margin-top:  clamp(15px, 2vw, 2vw);
+display:none;
 }
+
 #botSM{
-    max-width: 400px;
-    width: 80%;
-    background: #000152;
-    margin: 0 auto;
-    text-align: center;
-    padding: 8px;
-    color:#191DFF;
+    background:#000152;
     font-family: 'Roboto', sans-serif;
-    cursor: pointer;
+    width:75%;
+    max-width:350px;
+    height:30px;	
+    padding:7px;
+    text-align:center;
+    margin:10px auto;
+    border-radius:5px;
+    color:#191DFF;
+	transition:5s;
 }
 #botSM:hover{
-    background: #01036d;
-    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
-}
-#fechar{
     cursor:pointer;
-    color:#fff;
-    font-family: 'Roboto', sans-serif;
 }
+#fec:hover{
+    cursor:pointer;
+}
+#fec{
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+}
+    
