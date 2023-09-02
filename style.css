@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     /*max-height: 1024px;*/
     min-height:700px;
+    padding-bottom:8px;
 }
 img#fundo{
     position: absolute;
