@@ -190,6 +190,93 @@ display:none;
 #fec:hover{
     cursor:pointer;
 }
+/*==================================PROJETOS==================*/
+#ext-pro{
+    font-family: 'Roboto',sans-serif;
+    background-image:radial-gradient(#191dff,#000152);
+    height: 100%;
+}
+article#menu-lateral{
+    position: absolute;   
+    background-color: #0052ff;
+    width: 30px;
+    height: auto;
+    
+    top:0;
+    bottom: 0;
+}
+article#menu-lateral li{
+    opacity: 0;
+}
+article#menu-lateral:hover li{
+    opacity: 1;
+}
+
+article#menu-lateral:hover{
+    width: 120px;
+    transition: 1s;
+    border-radius: 0;
+    position: absolute;    
+    background-color: #0052ff;
+    height: auto;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    box-shadow: 2px 0 5px #3333339d ;
+}
+
+section#projetos{
+    
+    background-color: #80a7fc;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+section#projetos span{
+    width:250px;
+    height:350px;
+    display:inline-flex;
+    margin:20px 10px 0 10px;
+    border-radius:10px;
+    padding:5px;
+    background-image: url('imagens/engrenagens.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    
+}
+section#projetos span p{        
+   position: relative;
+   margin: auto auto 5px ;
+    width: 100%;
+    opacity: 0;
+    
+}
+#projetos span img{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+   
+}
+#projetos span:hover{
+    transform:translateY(-12px);    
+    transition: 0.5s;
+    
+}
+#projetos span:hover p{
+    opacity: 1;    
+    transition: 1s;
+}
+header#cabe-pro{
+    width: 100;
+    text-align: center;
+    background-color: #4461c0;
+    box-shadow: 0 2px 5px #3333339d ;
+    color: #fff;
+    padding: 10px;
+}    
 #fec{
     color: #fff;
     font-family: 'Roboto',sans-serif;
