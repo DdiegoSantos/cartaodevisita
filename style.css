@@ -9,9 +9,6 @@
 body{
     background-image:  url('imagens/fundo.png'),linear-gradient(-35deg, #000152,#191DFF);   
     background-repeat: no-repeat;
-    /*max-height: 1024px;*/
-    min-height:700px;
-    padding-bottom:8px;
 }
 img#fundo{
     position: absolute;
@@ -26,106 +23,93 @@ article#foto{
 article#foto img{
     
     max-width:300px;
-   min-width: 100px;
-   margin-top: clamp(50px, 2vw, 5vw);
+    min-width: 100px;
+    margin-top: clamp(50px, 2vw, 5vw);
+}
 
-}
 article#cabecalho{
-    display: block;
     text-align: center;
-    max-width: clamp(300px, 800px, 1900px);
-    
+    max-width: 800px;
+    margin: 0 auto;
+    width: 60%;
 }
-article#cabecalho h1,h2,p{
+article#cabecalho h1,
+article#cabecalho h2,
+article#cabecalho p{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    
 }
 article#cabecalho h1{
+    font-size:clamp(1em, 3vw, 5ex) ;
     color:#fff;
-    font-size:clamp(18px, 2vw, 3vw) ;
-    margin-bottom:5px;
 }
 article#cabecalho h2{
     border-top:2px dashed #decc0b;
-    width: 100%;
+    font-size:clamp(1.5em, 3.5vw, 7.5ex) ;
     color:#decc0b;
-    font-size:clamp(24px, 40px, 3vw) ;
-    text-align: center;
 }
 article#cabecalho p{
-    font-size:clamp(15px, 2vw, 40px) ;
+    font-size:clamp(0.8em, 2vw, 3ex) ;
     color:#fff;
-    margin-top:20px;
+}
+article#redeSocial{
+    width: 10vw;
+    min-width:100px; 
+    margin:auto;
 }
 article#redeSocial img{
+    text-align: center;
     display: inline-flex;
     width:1.5vw;
     min-width: 30px;
-    margin:30px 10px 10px 10px;
+    margin: 35px 15px 0px;
 }
 
-main article#cabecalho{
-    margin: 0 auto;
-    width: 60%;
-    
-}
 /*====================PROJETOS=============*/
 article #git ,
 article #formacao{
-    margin: 5px 0;
+    margin: 20px 0;
+    height: 50px;
 }
 
 article #git p,
 article #formacao p{
-    display: inline-block;
+    display: inline-flex;
     text-align: center;
     color:rgb(0, 175, 239);
-    font-size:clamp(15px, 1.5vw, 3vw);
-    
+    font-size:clamp(15px, 1.5vw, 3ex);
 }
 article #git a,
 article #formacao a{
-    text-decoration: 0;
+    text-decoration: none;
 }
 article #git img,
 article#formacao img{
     min-width: 25px;
-    width: 2vw;
-    
+    width: 2vw;   
 }
 
 /*===========================GRADUAÇÃO=============*/
-
+article#cursos-online img,
 article#formacaocursos img{
     display: inline-flex;
-    margin: 2vw 0;
+    margin: 2vw 20px;
+}
+article#formacaocursos img{
     width: 250px;
-    margin: 30px 20px 30px 0;
-    
 }
-article#formacaocursos{
-    display: block;
-    margin: 2vw 5vw;
+article#formacaocursos,
+article#cursos-online{
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 0.6em;
     color:#727272;
 }
-article#cursos img{
-    display: inline-flex;
-    margin: 2vw 0;
-    height: 80px;
-    margin: 30px 30px 30px 0;
-    
+article#cursos-online img{
+   height: 80px;
 }
-article#cursos{
-    display: block;
-    margin: 2vw 5vw;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.6em;
-    color:#727272;
-}
+
 /*======================================SOBRE MIM===================*/
 article#sobremim{
     background: #000160;
@@ -134,8 +118,6 @@ article#sobremim{
     box-shadow:0 0 15px #333;
     width: 60%;
     min-width: 280px;
-	
-	
     margin:  auto;
     display: none;
     height: 0;
@@ -143,32 +125,28 @@ article#sobremim{
 article#sobremim h1,
 article#sobremim h2,
 article#sobremim p{
-    
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    
+    display:none;
 }
 article#sobremim h1{
     text-align: right;
     color:#fff;
     font-size:clamp(18px, 1vw, 2vw) ;
     margin-bottom:5px;
-display:none;
 }
 article#sobremim h2{
     border-top:2px dashed #decc0b;
     width: 100%;
     color:#decc0b;
     font-size:clamp(24px, 40px, 2vw) ;
-    text-align: right;
-display:none;
+    text-align: right;    
 }
 article#sobremim p{
     font-size:clamp(15px, 2vw, 18px) ;
     color:rgb(0, 175, 239);
     text-align: justify;
     margin-top:  clamp(15px, 2vw, 2vw);
-display:none;
 }
 
 #botSM{
@@ -182,7 +160,7 @@ display:none;
     margin:10px auto;
     border-radius:5px;
     color:#191DFF;
-	transition:5s;
+    transition:5s;
 }
 #botSM:hover{
     cursor:pointer;
@@ -190,6 +168,12 @@ display:none;
 #fec:hover{
     cursor:pointer;
 }
+#fec{
+    width: 20px;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+}
+
 /*==================================PROJETOS==================*/
 #ext-pro{
     font-family: 'Roboto',sans-serif;
@@ -201,7 +185,6 @@ article#menu-lateral{
     background-color: #0052ff;
     width: 30px;
     height: auto;
-    
     top:0;
     bottom: 0;
 }
@@ -227,12 +210,9 @@ article#menu-lateral:hover{
 }
 
 section#projetos{
-    
     background-color: #80a7fc;
     text-align: center;
     margin: 0 auto;
-    
-    
 }
 section#projetos span{
     width:250px;
@@ -245,7 +225,6 @@ section#projetos span{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     cursor: pointer;
-    
 }
 section#projetos span p{        
    position: relative;
@@ -258,12 +237,10 @@ section#projetos span p{
     width: 20px;
     height: 20px;
     margin: auto;
-   
 }
 #projetos span:hover{
     transform:translateY(-12px);    
     transition: 0.5s;
-    
 }
 #projetos span:hover p{
     opacity: 1;    
@@ -277,8 +254,3 @@ header#cabe-pro{
     color: #fff;
     padding: 10px;
 }    
-#fec{
-    color: #fff;
-    font-family: 'Roboto',sans-serif;
-}
-    
