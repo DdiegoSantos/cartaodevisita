@@ -9,77 +9,79 @@
 body{
     background-image:  url('imagens/fundo.png'),linear-gradient(-35deg, #000152,#191DFF);   
     background-repeat: no-repeat;
-}
-img#fundo{
-    position: absolute;
-    width: 50%;
-    max-width: 500px;
-    display: none;
-}
-article#foto{
-    text-align: center;
-    margin: auto;
-}
-article#foto img{
     
-    max-width:300px;
-    min-width: 100px;
-    margin-top: clamp(50px, 2vw, 5vw);
 }
 
-article#cabecalho{
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
-    width: 60%;
-}
-article#cabecalho h1,
-article#cabecalho h2,
-article#cabecalho p{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-}
-article#cabecalho h1{
-    font-size:clamp(1em, 3vw, 5ex) ;
-    color:#fff;
-}
-article#cabecalho h2{
-    border-top:2px dashed #decc0b;
-    font-size:clamp(1.5em, 3.5vw, 7.5ex) ;
-    color:#decc0b;
-}
-article#cabecalho p{
-    font-size:clamp(0.8em, 2vw, 3ex) ;
-    color:#fff;
-}
-article#redeSocial{
-    width: 10vw;
-    min-width:100px; 
-    margin:auto;
-}
-article#redeSocial img{
-    text-align: center;
-    display: inline-flex;
-    width:1.5vw;
-    min-width: 30px;
-    margin: 35px 15px 0px;
-}
+    article#foto{
+        text-align: center;
+        margin: auto;
+    }
+    article#foto img{
+        width: 20%;
+        max-width:250px;
+        min-width: 200px;
+        margin-top: 2vw;
+        
+    }
 
-/*====================PROJETOS=============*/
-article #git ,
-article #formacao{
-    margin: 20px 0;
-    height: 50px;
-}
+    article#cabecalho{
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+        width: 60%;
+    }
+    article#cabecalho h1,
+    article#cabecalho h2,
+    article#cabecalho p{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        
+    }
+    article#cabecalho h1{
+        font-size:clamp(1em, 3vw, 3ex) ;
+        color:#fff;
+        
+    }
+    article#cabecalho h2{
+        border-top:2px dashed #decc0b;
+        font-size:clamp(1.5em, 3.5vw, 4ex) ;
+        color:#decc0b;
+    }
+    article#cabecalho p{
+        font-size:clamp(0.8em, 2vw, 2ex) ;
+        color:#fff;
+        
+    }
+    article#redeSocial{
+        width: 18vw;
+        min-width:100px; 
+        margin:auto;
+    }
+    article#redeSocial img{
+        text-align: center;
+        display: inline-flex;
+        width:1.5vw;
+        min-width: 30px;
+        margin: 35px 15px 0px;
+    }
 
-article #git p,
-article #formacao p{
-    display: inline-flex;
-    text-align: center;
-    color:rgb(0, 175, 239);
-    font-size:clamp(15px, 1.5vw, 3ex);
-}
+    /*====================PROJETOS=============*/
+    article #git ,
+    article #formacao{
+        margin: 20px 0;
+        height: 50px;
+        
+    }
+
+    article #git p,
+    article #formacao p{
+        display: inline-flex;
+        text-align: center;
+        color:rgb(0, 175, 239);
+        font-size:clamp(15px, 1.5vw, 2ex);
+            
+    }
 article #git a,
 article #formacao a{
     text-decoration: none;
@@ -95,6 +97,7 @@ article#cursos-online img,
 article#formacaocursos img{
     display: inline-flex;
     margin: 2vw 20px;
+
 }
 article#formacaocursos img{
     width: 250px;
@@ -125,9 +128,11 @@ article#sobremim{
 article#sobremim h1,
 article#sobremim h2,
 article#sobremim p{
+    
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     display:none;
+    
 }
 article#sobremim h1{
     text-align: right;
@@ -160,7 +165,7 @@ article#sobremim p{
     margin:10px auto;
     border-radius:5px;
     color:#191DFF;
-    transition:5s;
+	transition:5s;
 }
 #botSM:hover{
     cursor:pointer;
@@ -185,6 +190,7 @@ article#menu-lateral{
     background-color: #0052ff;
     width: 30px;
     height: auto;
+    
     top:0;
     bottom: 0;
 }
@@ -210,9 +216,12 @@ article#menu-lateral:hover{
 }
 
 section#projetos{
+    
     background-color: #80a7fc;
     text-align: center;
     margin: 0 auto;
+    
+    
 }
 section#projetos span{
     width:250px;
@@ -225,6 +234,7 @@ section#projetos span{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     cursor: pointer;
+    
 }
 section#projetos span p{        
    position: relative;
@@ -237,10 +247,12 @@ section#projetos span p{
     width: 20px;
     height: 20px;
     margin: auto;
+   
 }
 #projetos span:hover{
     transform:translateY(-12px);    
     transition: 0.5s;
+    
 }
 #projetos span:hover p{
     opacity: 1;    
