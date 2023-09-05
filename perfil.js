@@ -37,3 +37,51 @@ function fechar(){
 	cabecalho.style.display="block"
 	botSM.style.display="block"
 }
+function manos(){
+	alert("Desculpe, ainda não tem informações.")
+	/*
+	prod1 = document.getElementById("pro1")
+	prod2 = document.getElementById("pro2")
+	prod3 = document.getElementById("pro3")
+	
+	prod2.style.display="none";
+	prod3.style.display="none";
+
+	var janela = document.createElement("div")
+	
+	var conteudo = document.createTextNode("Loja Manos Game. Esse projeto foi criado para substituir o estágio supervisionado da faculdade, ele apresenta uma onepage com as principais informações de uma loja de Games e Consertos de Console. O trabalho foi construido com o desenvolvimento responsivo em html, estilizado com Css, interatividade usando javascript e menu utilizando as ferramentas bootstrap.")
+	
+	janela.appendChild(conteudo);
+	var janel = document.querySelector("#janel");
+	
+	janel.innerHTML=janela.innerText;
+	janel.style.textAlign= "left"
+	janel.style.border="1px #333 solid"
+	
+*/
+}
+function corte(){
+	alert("Desculpe, ainda não tem informações.")
+	/*
+	prod1 = document.getElementById("pro1")
+	prod2 = document.getElementById("pro2")
+	prod3 = document.getElementById("pro3")
+	
+	prod1.style.display="none";
+	prod3.style.display="none";
+
+	var janel = document.createElement("div")
+	
+	var conteudo = document.createTextNode("Loja Manos Game. Esse projeto foi criado para substituir o estágio supervisionado da faculdade, ele apresenta uma onepage com as principais informações de uma loja de Games e Consertos de Console. O trabalho foi construido com o desenvolvimento responsivo em html, estilizado com Css, interatividade usando javascript e menu utilizando as ferramentas bootstrap.")
+	
+	var janel = document.querySelector("#janel");
+	janel.appendChild(conteudo);
+	
+	
+	janel.style.border="1px #333 solid"
+	janel.style.width="1000px"
+	janel.innerHTML
+	
+	
+*/
+}
