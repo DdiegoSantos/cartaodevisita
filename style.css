@@ -96,7 +96,7 @@ article#formacao img{
 article#cursos-online img,
 article#formacaocursos img{
     display: inline-flex;
-    margin: 2vw 20px;
+    margin: 2vw 30px;
 
 }
 article#formacaocursos img{
@@ -106,13 +106,17 @@ article#formacaocursos,
 article#cursos-online{
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 0.6em;
+    font-size: 2ex;
     color:#727272;
+    margin: 0 0 2vw 0
 }
 article#cursos-online img{
    height: 80px;
 }
+article#cursos-online p{
+    font-size: 2.2ex;
 
+}
 /*======================================SOBRE MIM===================*/
 article#sobremim{
     background: #000160;
