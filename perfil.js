@@ -38,7 +38,7 @@ function fechar(){
 	botSM.style.display="block"
 }
 function manos(){
-	alert("Desculpe, ainda não tem informações.")
+	alert("Loja Manos Game. Esse projeto foi criado para substituir o estágio supervisionado da faculdade, ele apresenta uma onepage com as principais informações de uma loja de Games e Consertos de Console. O trabalho foi construido com o desenvolvimento responsivo em html, estilizado com Css, interatividade usando javascript e menu utilizando as ferramentas bootstrap.")
 	/*
 	prod1 = document.getElementById("pro1")
 	prod2 = document.getElementById("pro2")
@@ -61,7 +61,7 @@ function manos(){
 */
 }
 function corte(){
-	alert("Desculpe, ainda não tem informações.")
+	alert("CALCULADORA DE LIGAS - Esse projeto foi contruido para atender uma necessidade no meu local de trabalho atual, onde é preciso fazer o controle de produção entre produdos na Fabrica de Café Solúvel. Foi desenvolvido em HTML, CSS e Javascript.")
 	/*
 	prod1 = document.getElementById("pro1")
 	prod2 = document.getElementById("pro2")
