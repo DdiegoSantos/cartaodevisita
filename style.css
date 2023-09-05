@@ -93,6 +93,19 @@ article#formacao img{
 }
 
 /*===========================GRADUAÇÃO=============*/
+#cursos-grid{
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+#cursos-grid a{
+    text-decoration: none;
+    color: #333;
+    text-transform:uppercase;
+    font-size: 1.8ex;
+
+}
 article#cursos-online img,
 article#formacaocursos img{
     display: inline-flex;
@@ -115,7 +128,8 @@ article#cursos-online img{
 }
 article#cursos-online p{
     font-size: 2.2ex;
-
+    background-color: #ddd;
+    
 }
 /*======================================SOBRE MIM===================*/
 article#sobremim{
