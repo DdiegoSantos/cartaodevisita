@@ -242,8 +242,15 @@ section#projetos span#pro1{
     background-repeat: no-repeat;
     background-size: 70% auto ;
     background-position: 50% 5px;
-    
-    
+}
+section#projetos span#pro2{
+    background-image: url('imagens/corte-liga-med.png');
+    background-repeat: no-repeat;
+    background-size: 50% auto ;
+    background-position: 50% 5px;
+}
+div#janel{
+    width: 500px;
 }
 section#projetos span p.ace{        
    
@@ -321,7 +328,7 @@ footer  a{
     text-decoration: none;
 }
 footer p{
-    color: #fff;
+    color: #0052ff;
     text-transform: uppercase;   
     background: #000152;
     padding: 5px;
