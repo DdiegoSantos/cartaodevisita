@@ -85,3 +85,12 @@ function corte(){
 	
 */
 }
+function pegarTexto(){
+    let texto = [];
+    
+    arr = document.querySelector("#text-box").value
+    texto.push(arr);
+    
+    destino.innerHTML  += texto;
+
+}
